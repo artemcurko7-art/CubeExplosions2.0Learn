@@ -18,12 +18,10 @@ public class RaycastHandler : MonoBehaviour
         if (CanSplit(cube.ChanceDivision))
         {
             _spawner.GetObjectsSpawn(cube);
-        }
-        else
-        {
             _explosion.Push(cube);
-            _spawner.DestroyCube(cube);
         }
+
+        _spawner.DestroyCube(cube);
     }
 
     private bool CanSplit(int chancePercent)

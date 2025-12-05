@@ -1125,8 +1125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aed5fffab71a404f985e8992bfc9e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Explosion
-  _minRangeForce: 0.5
-  _maxRangeForce: 1
+  _minRangeForce: 1
+  _maxRangeForce: 2
   _minRangeRadius: 10
   _maxRangeRadius: 20
 --- !u!1 &622884574

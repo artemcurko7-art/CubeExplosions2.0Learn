@@ -39,7 +39,7 @@ public class Explosion : MonoBehaviour
 
         float scale = cubeClicked.transform.localScale.x;
         float currentRadius =  radius / scale;
-
+        
         Collider[] hits = Physics.OverlapSphere(cubeClicked.transform.position, currentRadius);
 
         foreach (var hit in hits)
